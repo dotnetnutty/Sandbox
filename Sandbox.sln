@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{5C5CF56B-0B6D-4634-9162-B6407AB800B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Tests", "Sandbox.Tests\Sandbox.Tests.csproj", "{A9A15414-AFAC-4EE0-8998-5232D4D39E15}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{E7A2B507-8D36-479E-8F19-D51ECC2E3B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQIntro", "MSMQIntro\MSMQIntro.csproj", "{D1C61768-2D9D-4B3C-9194-B681AA8AFF9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E7A2B507-8D36-479E-8F19-D51ECC2E3B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7A2B507-8D36-479E-8F19-D51ECC2E3B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7A2B507-8D36-479E-8F19-D51ECC2E3B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1C61768-2D9D-4B3C-9194-B681AA8AFF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C61768-2D9D-4B3C-9194-B681AA8AFF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C61768-2D9D-4B3C-9194-B681AA8AFF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C61768-2D9D-4B3C-9194-B681AA8AFF9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

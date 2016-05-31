@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static System.Math;   // C# 6.0
 
 namespace ConsoleApplication
@@ -17,7 +13,7 @@ namespace ConsoleApplication
         static void Main(string[] args)
         {
             Console.WriteLine(FirstName);
-            Console.WriteLine(Sqrt(9));
+            Console.WriteLine(Sqrt(9)); // C# 6.0, using Math.Sqrt. Can do the same with enums.
 
             string fullName = GetFullName();
             Console.WriteLine($"Full name: {fullName}"); // C# 6.0 string format
@@ -47,10 +43,12 @@ namespace ConsoleApplication
             {
                 Console.WriteLine(item);
             }
+
+            Console.WriteLine("Neil".PrefixWithHello());
         }
 
-        // C# 6.0 method expression
-        static string GetFullName() => $"{FirstName} {LastName}";
+            // C# 6.0 method expression
+            static string GetFullName() => $"{FirstName} {LastName}";
 
         static void Check(string input)
         {
@@ -74,5 +72,7 @@ namespace ConsoleApplication
 
         OnChanged?.Invoke(this, args);
     */
+
+     // C# 6.0: catch(ConfigurationException e) when (e.IsSevere)
     }
 }
